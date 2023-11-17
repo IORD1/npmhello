@@ -1,13 +1,18 @@
 {
-  "name": "npmhello",
+  "name": "iord",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./cli.js",
+  "bin": {
+    "iord": "./cli.js"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prettyjson": "^1.2.5"
+  }
 }
